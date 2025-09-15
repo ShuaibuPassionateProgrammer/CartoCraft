@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20 flex flex-col items-center text-center">
                 {/* Heading */}
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-                    Build Smarter with <span className="text-blue-600 dark:text-blue-400">Cartolinks</span>
+                    Build Smarter with <span className="text-blue-600 dark:text-blue-400">CartoCraft</span>
                 </h1>
 
                 {/* Subheading */}
