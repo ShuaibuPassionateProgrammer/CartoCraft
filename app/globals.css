@@ -17,9 +17,20 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Ensure dark mode styles are applied */
+html.dark {
+  color-scheme: dark;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Force dark mode styles to be available */
+.dark body {
+  background: var(--background);
+  color: var(--foreground);
 }
