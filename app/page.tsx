@@ -1,17 +1,19 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
+import Navbar from "@/components/Navbar";
+import HeroSlider from "@/components/HeroSlider";
+import Generate from "@/components/Generate";
+import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 
-const Home = () => {
+export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-      <Header />
-      <Hero />
-      <Features />
+    <div className="min-h-screen">
+      <Navbar />
+      <main>
+        <HeroSlider />
+        <Generate />
+        <Gallery />
+      </main>
       <Footer />
-    </main>
+    </div>
   );
-};
-
-export default Home;
+}
